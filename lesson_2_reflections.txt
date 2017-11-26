@@ -6,8 +6,9 @@ How is the staging area different from the working directory and the repository?
 	
 	The staging area is different from the working directory and repository because it doesn't necessarily contain all the same files as them. I believe it offers value by not forcing you to commit all files at the same time or just one.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Since having a staging area allows you to see the difference between what's in the working directory and the staging area, you can check if you're committing too large of a change and edit the code accordingly. If there was no staging area, you might end up committing more than one logical change or leaving out changes in your commit message.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
