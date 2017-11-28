@@ -1,7 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    I'd think that you'd always want to use a remote repository rather than keep work
+    local. Github can be used so that you always have a backup of your code. It'd be
+    awful to be unable to turn on your computer one day and realize you'd lost your work.
+    You'd also want to use a remote repository for collaboration purposes and so that others
+    can see your projects.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
