@@ -1,10 +1,10 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-Instead of having to manually sift through 2,000 lines of code to see why one version works and one version doesn't, I could make the computer work to find the differences for me. I haven't built anything large that a few dozen lines, but it's already easy to see how having a VCS and using diff will help with finding bugs.
+	Instead of having to manually sift through 2,000 lines of code to see why one version works and one version doesn't, I could make the computer work to find the differences for me. I haven't built anything larger than a few dozen lines, but it's already easy to see how having a VCS and using diff will help with finding bugs.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-Being able to easily revert to old versions that may have been superior (for whatever reason) would save time since you could just say "I like the way this looked on Friday" and start using Friday's version again immediately.
+	Being able to easily revert to old versions that may have been superior (for whatever reason) would save time since you could just say "I like the way this looked on Friday" and start using Friday's version again immediately.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
@@ -14,7 +14,7 @@ What do you think are the pros and cons of manually choosing when to create a co
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-    In Git, each file is a single repository will generally be inter-related. So, those multiple files should be tracked together since a change to one of them may effect all of them. With Google Docs, a change to a syllabus wouldn't effect lesson plans for every other day. It makes much for sense to treat files separately for the things that Google Docs tends to handle and it makes perfect sense for Git to treat files in the same repository as related and save them together.
+    In Git, each file is a single repository will generally be inter-related. So, those multiple files should be tracked together since a change to one of them may effect all of them. With Google Docs, a change to a syllabus wouldn't effect lesson plans for every other day. It makes more sense to treat files separately for the things that Google Docs tends to handle and it makes perfect sense for Git to treat files in the same repository as related and save them together.
 
 How can you use the commands git log and git diff to view the history of files?
 

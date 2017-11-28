@@ -10,13 +10,18 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	Since having a staging area allows you to see the difference between what's in the working directory and the staging area, you can check if you're committing too large of a change and edit the code accordingly. If there was no staging area, you might end up committing more than one logical change or leaving out changes in your commit message.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches can keep added language features, experimental features, and more to themselves while you can keep developing the master branch as planned. Branches keep the history organized because you know that certain changes will be on their own branch, so you wouldn't go looking for the commit where you began translating the site's language on the master branch. Also, you won't have a bunch of "delete x experimental feature" or "fixed x experimental feature bug" commit messages muddying up your git log.
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	Diagrams help visualize the branch structure by basically giving us a timeline of commits and branches. We know that the right-most commit id is the most recent changes on its branch and the left-most is the opposite. It also exactly where each branch and each commit are related.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two branches together incorporates the most recent commits from each branch together. It also merges commit histories, making the histories of both branches available via "git log". It's represented on the diagrams as a meeting point between Master and Coins because it shows a major change (greater than one logical change and, more likely, equal to an entire new feature) was made. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Always doing merges manually could easily lead to mistakes, while Git's automatic merging tells you when there is a conflict and indicates the affected lines. While it's possible to introduce a bug while fixing a conflict, it's more likely to create one during manually merging. I don't really see any cons to automatic merging. Where there are conflicts, it means that the team needs to communicate and figure out the conflict. Where there are no conflicts, everything goes smoothly and there's nothing to figure out.
