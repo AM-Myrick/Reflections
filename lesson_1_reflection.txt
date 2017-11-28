@@ -1,29 +1,54 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-	Instead of having to manually sift through 2,000 lines of code to see why one version works and one version doesn't, I could make the computer work to find the differences for me. I haven't built anything larger than a few dozen lines, but it's already easy to see how having a VCS and using diff will help with finding bugs.
+	Instead of having to manually sift through 2,000 lines of code to see why one version 
+	works and one version doesn't, I could make the computer work to find the differences 
+	for me. I haven't built anything larger than a few dozen lines, but it's already easy 
+	to see how having a VCS and using diff will help with finding bugs.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-	Being able to easily revert to old versions that may have been superior (for whatever reason) would save time since you could just say "I like the way this looked on Friday" and start using Friday's version again immediately.
+	Being able to easily revert to old versions that may have been superior (for whatever 
+	reason) would save time since you could just say "I like the way this looked on Friday" 
+	and start using Friday's version again immediately.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+What do you think are the pros and cons of manually choosing when to create a commit,
+ like you do in Git, vs having versions automatically saved, like Google docs does?
 
-    Manually choosing when to create a commit means that you can commit at a logical point that will provide a working version of the code and will make sense to those who come after you. Having versions automatically create means that it could save in the middle of a line and leave your coworkers or collaborators confused. On the other hand, manual commits can fall to user error and you could be working with someone who forgets to commit or doesn't provide useful commit messages. 
+    Manually choosing when to create a commit means that you can commit at a logical point 
+    that will provide a working version of the code and will make sense to those who come after
+     you. Having versions automatically create means that it could save in the middle of a line 
+     and leave your coworkers or collaborators confused. On the other hand, manual commits can fall
+      to user error and you could be working with someone who forgets to commit or doesn't provide useful commit messages. 
 
-    Because I'm forgetful, I still lean towards using something that saves automatically, but I definitely see how important manual commits are. I'm sure I'll be a convert soon enough!
+    Because I'm forgetful, I still lean towards using something that saves automatically, but I definitely
+     see how important manual commits are. I'm sure I'll be a convert soon enough!
 
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
 
-    In Git, each file is a single repository will generally be inter-related. So, those multiple files should be tracked together since a change to one of them may effect all of them. With Google Docs, a change to a syllabus wouldn't effect lesson plans for every other day. It makes more sense to treat files separately for the things that Google Docs tends to handle and it makes perfect sense for Git to treat files in the same repository as related and save them together.
+    In Git, each file is a single repository will generally be inter-related. So, those multiple
+     files should be tracked together since a change to one of them may effect all of them. With
+      Google Docs, a change to a syllabus wouldn't effect lesson plans for every other day. It makes 
+      more sense to treat files separately for the things that Google Docs tends to handle and it makes
+       perfect sense for Git to treat files in the same repository as related and save them together.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    You can use git log to find out who made a commit when, and view the commit message. Once you find out which commit implemented the change you're looking for, you can then use git diff to look at the differences between two commit IDs. Git log allows you to see the history of commits and git diff lets you compare those commits so that you can view the file history.
+    You can use git log to find out who made a commit when, and view the commit message. Once you 
+    find out which commit implemented the change you're looking for, you can then use git diff to 
+    look at the differences between two commit IDs. Git log allows you to see the history of commits
+     and git diff lets you compare those commits so that you can view the file history.
 
 How might using version control make you more confident to make changes that could break something?
 
-    Having version control allows you to be more experimental and make risky changes because you know that you always have a working version you can revert to. If I'm not mistaken, you could create a branch for your more experimental changes and work on changes that could be risky there while working on safer code in your master repository. Eventually, once your changes were bug tested, you could merge the two without harming your deployed project.
+    Having version control allows you to be more experimental and make risky changes because you 
+    know that you always have a working version you can revert to. If I'm not mistaken, you could 
+    create a branch for your more experimental changes and work on changes that could be risky there
+    while working on safer code in your master repository. Eventually, once your changes were bug tested, 
+    you could merge the two without harming your deployed project.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I haven't yet built a portfolio since I wanted to know more CSS before doing so. But, now that I know I can experiment more freely since I'll have version control, I feel comfortable making a portfolio with my current skills and making it more advanced later.
+    I haven't yet built a portfolio since I wanted to know more CSS before doing so. But, now that 
+    I know I can experiment more freely since I'll have version control, I feel comfortable making a
+    portfolio with my current skills and making it more advanced later.
