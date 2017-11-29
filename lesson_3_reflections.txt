@@ -23,9 +23,8 @@ use one instead of another?
     edit it, pull it to your machine, and whatever else you want to do with it. Unless you
     pull the repository, the changes you make will only exist on GitHub.
     
-    A clone creates a copy of someone else's GitHub repository or local Git repository on
-    your machine. Unless you push the repository, the changes you make will only exist on
-    your machine.
+    A clone creates a copy of someone else's GitHub repository on your machine. Unless 
+    you push the repository, the changes you make will only exist on your machine.
     
     A branch creates a copy of a local Git repository on your machine. It's completely separate 
     from the master branch. Unless you merge the branches, the changes made on the new branch
@@ -34,7 +33,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allows you to make edits to the remote from your own machine. You can also run the program
+    from your machine in order to check for bugs or see how it works in different environments.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
