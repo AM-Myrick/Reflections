@@ -47,4 +47,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If you were constantly making changes in master, then you'd have to go through the conflict merging process each time
+    you want to update your master branch. Instead, you can update master as often as necessary and only go through the merge
+    process when you have something significant on your branch to commit. Working directly on master might be beneficial if you're
+    working alone, but I think collaborating is best suited for working in separate branches.
